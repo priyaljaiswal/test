@@ -8,3 +8,12 @@ This text is __*really important*__.
 4. Fourth item	<ol>
 Heading level 1
 ===============	
+Here is a simple flow chart:
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
