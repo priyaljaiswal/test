@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "edm": "https://data.elsevier.com",
+    "rv": "https://data.elsevier.com/a",
+    "pub": "https://data.elsevier.com/aa/",
+    "org": "https://data.elsevier.com/aa/"
+  },
+  "@id": "https://data.elsevier.com/external/pii/S2949912724000357",
+  "@type": "edm:Work",
+  "edm:label": "Figure 1.1",
+  "rv:classifcation": {
+    "@type": "https://data.elsevier.com/e/classification/image-complexity",
+    "@value": "IMAGE-SIMPLE"
+  },
+  "edm:part of": "https://data.elsevier.com/external/pii/S294991272ad00357",
+  "edm:title": "The lady of Shalott, 1888",
+  "pageNumber": 18,
+  "edm:description": [
+    {
+      "rdf:value": {
+        "@type": "rdf:HTML",
+        "@value": "Image of oil painting by John William Waterhouse depicting the Lady of Shalott, who is sitting in a small boat in a white dress, sitting on a hand woven tapestry",
+        "length": 162,
+        "words": 30
+      },
+      "edm:inLanguage": "eng",
+      "prov:has_provenance": {
+        "pav:createdBy": {
+          "@id": "org:straive"
+        },
+        "pav:createdOn": {
+          "@type": "xsd:dateTime",
+          "@value": "2025-07-03T10:00:02Z"
+        },
+        "edm:quality": "0.994"
+      },
+      "rv:classifcation": {
+        "@type": "https://data.elsevier.com/ad/classification/description-length",
+        "@value": "DESCRIPTION-LONG
+    }
+  ]
+}
