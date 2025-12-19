@@ -1,0 +1,29 @@
+# Project Manifest
+
+## Metadata
+- **Name:** Sample Plugin
+- **Version:** 1.0.0
+- **Author:** Example Author
+- **Description:** This manifest describes the configuration and metadata for the sample plugin.
+
+---
+
+## Configuration (JSON)
+
+```json
+{
+  "pluginKey": "com.example.sample-plugin",
+  "version": "1.0.0",
+  "enabled": true,
+  "modules": {
+    "webItems": [
+      {
+        "key": "sample-link",
+        "name": "Sample Link",
+        "url": "/sample",
+        "location": "system.top.navigation.bar"
+      }
+    ]
+  }
+}
+```
